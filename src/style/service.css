@@ -33,3 +33,25 @@
 .serve-content {
   grid-column: 2 / -1;
 }
+
+@media screen and (max-width: 940px) {
+  .service {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .service {
+    grid-template-columns: 1fr;
+  }
+
+  .serve {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .serve-img {
+    width: 60px;
+    height: 60px;
+  }
+}

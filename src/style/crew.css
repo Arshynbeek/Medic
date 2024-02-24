@@ -26,3 +26,20 @@
     object-fit: cover;
   }
 }
+
+@media screen and (max-width: 940px) {
+  .team {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .crew {
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .team {
+    grid-template-columns: 1fr;
+  }
+}

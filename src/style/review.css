@@ -23,3 +23,24 @@
     }
   }
 }
+
+@media screen and (max-width: 940px) {
+  .review {
+    grid-template-columns: repeat(3, 1fr);
+
+    div {
+      max-height: 390px;
+    }
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .review {
+    grid-template-columns: repeat(2, 1fr);
+
+    div {
+      max-height: 260px;
+      border-radius: 8px;
+    }
+  }
+}

@@ -38,3 +38,27 @@ nav {
     gap: 24px;
   }
 }
+
+.mobile-nav {
+  display: none;
+  margin-top: 16px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 720px) {
+  .head {
+    justify-content: center;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: flex;
+  }
+
+  .action {
+    display: none;
+  }
+}

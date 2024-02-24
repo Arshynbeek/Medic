@@ -26,3 +26,38 @@
     font-weight: 600;
   }
 }
+
+.price-buttons {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  
+  .price-button {
+    border: 1px solid var(--black);
+
+    img {
+      filter: invert(0);
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .price {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .money {
+    padding: 20px;
+    border-radius: 16px;
+  }
+
+  .money-title {
+    gap: 16px;
+  }
+
+  .price-buttons {
+    gap: 16px;
+  }
+}

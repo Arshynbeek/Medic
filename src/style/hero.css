@@ -40,3 +40,17 @@
     padding: 12px 24px;
   }
 }
+
+.mobile-title {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  .mobile-title {
+    display: block;
+  }
+
+  .main-title {
+    display: none;
+  }
+}
