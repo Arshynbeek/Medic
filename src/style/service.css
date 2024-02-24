@@ -1,0 +1,35 @@
+#service {
+  background-color: #16c2d513;
+}
+
+.service {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.serve {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.serve-img {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  border: 1px solid var(--black);
+  background-color: var(--white);
+
+  img {
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+  }
+}
+
+.serve-content {
+  grid-column: 2 / -1;
+}

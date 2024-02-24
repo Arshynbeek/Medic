@@ -1,0 +1,112 @@
+:root {
+  --white: #FFFFFF;
+  --silver: #C0C0C0;
+  --grey: #808080;
+  --black: #000000;
+  --red: #FF0000;
+  --yellow: #FFF000;
+  --green: #00AA57;
+  --greenn: #00ED64;
+  --teal: #008080;
+  --navy: #000080;
+  --purple: #800080;
+
+  --primary: #16c2d5;
+
+  --background-1: #f9f8f0a1;
+  --background-2: #16c2d513;
+}
+
+:root {
+  --main-font: Ubuntu, system-ui, -apple-system, sans-serif;
+  --code-font: "Source Code Pro", monospace;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+  scroll-behavior: smooth;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.division {
+  margin: 40px 0;
+  background-color: var(--primary);
+  h1 {
+    color: var(--white)
+  }
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 100px;
+  background-color: transparent;
+  border: 1px solid var(--white);
+  font-weight: 700;
+  gap: 12px;
+
+  img {
+    width: 24px;
+    height: 24px;
+    filter: invert(100);
+  }
+}
+
+.button {
+  border: none;
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+h1, h2, h3, h4, h5, h6,
+p, a, small, strong, li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  color: var(--black);
+  font-family: var(--main-font);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+p, a {
+  font-size: 16px;
+}

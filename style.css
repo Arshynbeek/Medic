@@ -1,56 +1,11 @@
-:root {
-  --white: #FFFFFF;
-  --silver: #C0C0C0;
-  --grey: #808080;
-  --black: #000000;
-  --red: #FF0000;
-  --yellow: #FFF000;
-  --green: #00AA57;
-  --greenn: #00ED64;
-  --teal: #008080;
-  --navy: #000080;
-  --purple: #800080;
+@import url("src/style/index.css");
 
-  --primary: #0066FF;
+@import url("/src/style/header.css");
+@import url("/src/style/footer.css");
 
-  --background-1: #001E2B;
-  --background-2: #21313C;
-}
-
-:root {
-  --mp-16: 16px;
-  --mp-24: 24px;
-  --mp-40: 40px;
-  --border-radius-6: 6px;
-  --border-radius-12: 12px;
-  --border-radius-16: 16px;
-
-  --shadow-main: 0px 0px 10px var(--main);
-  --shadow-primary: 0px 0px 10px var(--primary);
-}
-
-:root {
-  --main-font: Ubuntu, system-ui, -apple-system, sans-serif;
-  --code-font: "Source Code Pro", monospace;
-}
-
-*, *::before, *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-weight: normal;
-  scroll-behavior: smooth;
-}
-
-body {
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.container {
-  max-width: 1280px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 24px;
-}
+@import url("/src/style/hero.css");
+@import url("/src/style/service.css");
+@import url("/src/style/price.css");
+@import url("/src/style/crew.css");
+@import url("/src/style/certificate.css");
+@import url("/src/style/review.css");

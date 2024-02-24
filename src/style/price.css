@@ -1,0 +1,28 @@
+.price {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.money {
+  padding: 40px;
+  border-radius: 16px;
+  background-color: var(--background-1);
+
+  p {
+    color: var(--grey);
+  }
+}
+
+.money-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 24px;
+  margin-bottom: 24px;
+
+  p {
+    color: var(--green);
+    font-weight: 600;
+  }
+}
