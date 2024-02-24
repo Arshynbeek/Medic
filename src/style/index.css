@@ -77,6 +77,14 @@ button {
   color: var(--white);
 }
 
+.last-button {
+  border: 1px solid var(--grey);
+
+  img {
+    filter: invert(0);
+  }
+}
+
 h1, h2, h3, h4, h5, h6,
 p, a, small, strong, li {
   margin: 0;

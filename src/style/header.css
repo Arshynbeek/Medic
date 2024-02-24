@@ -22,14 +22,6 @@ header {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-
-  & > button:last-child {
-    border: 1px solid var(--grey);
-
-    img {
-      filter: invert(0);
-    }
-  }
 }
 
 nav {
