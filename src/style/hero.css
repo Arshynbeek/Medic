@@ -46,6 +46,10 @@
 }
 
 @media screen and (max-width: 720px) {
+  .hero-content {
+    width: 100%;
+  }
+
   .mobile-title {
     display: block;
   }

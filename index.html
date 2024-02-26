@@ -20,9 +20,9 @@
 
           <nav class="nav">
             <ul>
-              <li><a href="">Услуги</a></li>
-              <li><a href="">Контакты</a></li>
-              <li><a href="">О компаний</a></li>
+              <li><a href="#service">Услуги</a></li>
+              <li><a href="#footer">Контакты</a></li>
+              <li><a href="#team">О компаний</a></li>
             </ul>
           </nav>
   
@@ -45,9 +45,9 @@
 
         <nav class="mobile-nav">
           <ul>
-            <li><a href="">Услуги</a></li>
-            <li><a href="">Контакты</a></li>
-            <li><a href="">О компаний</a></li>
+            <li><a href="#service">Услуги</a></li>
+            <li><a href="#footer">Контакты</a></li>
+            <li><a href="#team">О компаний</a></li>
           </ul>
         </nav>
       </div>
@@ -365,9 +365,12 @@
       </div>
     </section>
 
-    <footer>
+    <footer id="footer">
       <div class="container">
         <div class="footer">
+          <input type="text" id="MessageName" placeholder="Ф.И.О." required>
+          <input type="text" id="MessageNumber" placeholder="Телефон" required>
+          <button onclick="sendMessage()">Заказать звонок</button>
         </div>
       </div>
     </footer>
