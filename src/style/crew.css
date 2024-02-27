@@ -35,11 +35,9 @@
 
   .crew {
     padding: 8px;
-  }
-}
 
-@media screen and (max-width: 940px) {
-  .team {
-    grid-template-columns: 1fr;
+    .crew-img {
+      height: 240px;
+    }
   }
 }
